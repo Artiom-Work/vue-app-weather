@@ -68,8 +68,9 @@ export default {
   color: #d03939;
   font-size: 16px !important;
 }
+
 .wrapper {
-  width: 900px;
+  width: 600px;
   height: 500px;
   border-radius: 50px;
   padding: 20px;
@@ -123,7 +124,9 @@ export default {
 }
 @media (max-width: 767px) {
   .wrapper {
-    width: 340px;
+    max-width: 320px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .wrapper h1 {
